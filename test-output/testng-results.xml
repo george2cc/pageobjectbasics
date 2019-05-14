@@ -2,16 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Page Object Model" duration-ms="3097" started-at="2019-05-13T12:43:33Z" finished-at="2019-05-13T12:43:36Z">
+  <suite name="Page Object Model" duration-ms="3023" started-at="2019-05-13T14:20:07Z" finished-at="2019-05-13T14:20:10Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="3097" started-at="2019-05-13T12:43:33Z" finished-at="2019-05-13T12:43:36Z">
+    <test name="Login Test" duration-ms="3023" started-at="2019-05-13T14:20:07Z" finished-at="2019-05-13T14:20:10Z">
       <class name="com.w2a.testcases.LoginTest">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.w2a.testcases.LoginTest@42f8285e]" name="loginTest" duration-ms="2826" started-at="2019-05-13T12:43:33Z" finished-at="2019-05-13T12:43:36Z">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.LoginTest@44040454]" name="loginTest" duration-ms="2718" started-at="2019-05-13T14:20:07Z" data-provider="dp" finished-at="2019-05-13T14:20:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Selenium@123, runmode=Y, username=george2c@optusnet.com.au}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.LoginTest@42f8285e]" name="tearDown" is-config="true" duration-ms="994" started-at="2019-05-13T12:43:36Z" finished-at="2019-05-13T12:43:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.LoginTest@44040454]" name="tearDown" is-config="true" duration-ms="998" started-at="2019-05-13T14:20:10Z" finished-at="2019-05-13T14:20:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

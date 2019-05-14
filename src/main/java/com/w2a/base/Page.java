@@ -133,7 +133,7 @@ public class Page {
 	
 	//common keywords
 	
-	public void click(String locator) {
+	public static void click(String locator) {
 
 		if (locator.endsWith("_CSS")) {
 			driver.findElement(By.cssSelector(OR.getProperty(locator))).click();
@@ -147,7 +147,7 @@ public class Page {
 		test.log(LogStatus.INFO, "Clicking on : " + locator);
 	}
 
-	public void type(String locator, String value) {
+	public static void type(String locator, String value) {
 
 		if (locator.endsWith("_CSS")) {
 			driver.findElement(By.cssSelector(OR.getProperty(locator))).sendKeys(value);
@@ -169,7 +169,7 @@ public class Page {
 		driver.quit();
 	}
 
-	public void select(String locator, String value) {
+	public static void select(String locator, String value) {
 
 		if (locator.endsWith("_CSS")) {
 			dropdown = driver.findElement(By.cssSelector(OR.getProperty(locator)));
@@ -186,7 +186,7 @@ public class Page {
 
 	}
 
-	public boolean isElementPresent(By by) {
+	public static boolean isElementPresent(By by) {
 
 		try {
 
