@@ -1,7 +1,7 @@
-14/05/2019 11:50:31 devpinoyLogger Config file loaded !!!
-14/05/2019 11:50:31 devpinoyLogger OR file loaded !!!
-14/05/2019 11:50:40 devpinoyLogger Navigated to : http://zoho.com
-14/05/2019 11:50:43 devpinoyLogger Clicking on element: loginlink_CSS
-14/05/2019 11:50:43 devpinoyLogger Typing in an element: email_CSS entered value as: george2c@optusnet.com.au
-14/05/2019 11:50:43 devpinoyLogger Typing in an element: password_CSS entered value as: Selenium@123
-14/05/2019 11:50:43 devpinoyLogger Clicking on element: signbtn_CSS
+14/05/2019 16:28:30 devpinoyLogger Config file loaded !!!
+14/05/2019 16:28:30 devpinoyLogger OR file loaded !!!
+14/05/2019 16:28:39 devpinoyLogger Navigated to : http://zoho.com
+14/05/2019 16:28:41 devpinoyLogger Clicking on element: loginlink_CSS
+14/05/2019 16:28:41 devpinoyLogger Typing in an element: email_CSS entered value as: george2c@optusnet.com.au
+14/05/2019 16:28:41 devpinoyLogger Typing in an element: password_CSS entered value as: Selenium@123
+14/05/2019 16:28:41 devpinoyLogger Clicking on element: signbtn_CSS
